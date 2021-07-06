@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="pl">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<!-- <meta name="viewport" content="width=device-width, initial-scale=1" /> -->
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale = 0.86, maximum-scale=3.0, minimum-scale=0.86"
+		/>
+		<title>Paweł Motyka - Frontend Developer</title>
+		<link rel="preconnect" href="https://fonts.gstatic.com" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Oswald:wght@300;400;700&family=Roboto:wght@300;400;700&family=M+PLUS+Rounded+1c:wght@300;400;700&display=swap"
+			rel="stylesheet"
+		/>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="./js/vanilla-tilt.min.js"></script>
+		<script
+			src="https://kit.fontawesome.com/c2b4373051.js"
+			crossorigin="anonymous"
+		></script>
+		<link rel="stylesheet" href="./css/style.css" />
+	</head>
+
+	<body>
+		<nav class="nav">
+			<a href="#" class="nav__link-logo"
+				><img
+					src="./img/logo/logo-biale-wektor.png"
+					alt="logo P"
+					class="nav__logo"
+			/></a>
+			<div class="nav__container">
+				<div class="nav__bars">
+					<i id="bars" class="fas fa-bars"></i>
+					<i id="exit" class="fas fa-times hide"></i>
+				</div>
+				<div class="nav__menu-box">
+					<a href="#home" class="nav__link active">HOME</a>
+					<a href="#about" class="nav__link">O MNIE</a>
+					<a href="#projects" class="nav__link">PROJEKTY</a>
+					<a href="#contact" class="nav__link">KONTAKT</a>
+				</div>
+			</div>
+		</nav>
+
+		<header id="home" class="header">
+			<div class="header__hero"></div>
+			<div class="header__text-box">
+				<p class="header__text">Paweł</p>
+				<p class="header__text">Motyka</p>
+				<p class="header__text header__dev">FRONT-END DEVELOPER</p>
+				<div class="header__icon-box">
+					<a href="https://github.com/ShockOfficial" target="__blank" class="header__link"
+						><i class="header__icon fab fa-github"></i
+					></a>
+					<a href="https://www.linkedin.com/in/pawe%C5%82-motyka-286625216/" target="__blank" class="header__link">
+						<i class="header__icon fab fa-linkedin"></i
+					></a>
+					<a href="https://www.instagram.com/paul.motyka/"  target="__blank" class="header__link">
+						<i class="header__icon fab fa-instagram"></i
+					></a>
+				</div>
+			</div>
+		</header>
+		<!-- <div class="wrapper"> -->
+		<section id="about" class="about-me">
+			<div class="about-me__img-box" data-aos="fade-right">
+				<img
+					src="./img/about.jpg"
+					alt="Photo of author"
+					class="about-me__photo"
+				/>
+			</div>
+
+			<p class="about-me__circle about-me__circle--1"></p>
+			<p class="about-me__circle about-me__circle--2"></p>
+			<p class="about-me__circle about-me__circle--3"></p>
+			<p class="about-me__circle about-me__circle--4"></p>
+			<div class="about-me__text-content" data-aos="fade-left">
+				<h2 class="heading about-me__title">O MNIE.</h2>
+				<p class="about-me__description">
+					Nazwyam się Paweł Motyka i zajmuję się front-endem. Swoją przygodę
+					rozpocząłem 24.05.2021r. W świecie IT jednak nie jestem nowy! Od
+					młodego gryzę kable, stukam w klawiaturę i bawię się grafiką. W wolnej
+					chwili chywam za gitarę lub bass i realizuję się artystycznie.
+				</p>
+			</div>
+			<div class="about-me__education" data-aos="fade-up">
+				<h3 class="about-me__edu-title">Edukacja</h3>
+				<div class="about-me__edu-item about-me__edu-item--1">
+					<p class="about-me__edu-year">2017 - 2021</p>
+					<h4 class="about-me__edu-subtitle">
+						Zespół Szkół Elektryczno-Mechanicznych w Nowym Sączu
+					</h4>
+					<p class="about-me__edu-description">Kierunek: Teleinformatyka</p>
+				</div>
+				<div class="about-me__timeline">&nbsp;</div>
+
+				<div class="about-me__edu-item about-me__edu-item--2">
+					<p class="about-me__edu-year">2021 - NADAL</p>
+					<h4 class="about-me__edu-subtitle">
+						Akademia Górniczo Hutnicza im. Stanisława Staszica w Krakowie
+					</h4>
+					<p class="about-me__edu-description">Kierunek: Informatyka</p>
+				</div>
+
+				<img
+					class="about-me__svg"
+					src="./img/undraw_Graduation_re_gthn.svg"
+					alt=""
+				/>
+			</div>
+		</section>
+
+		<section class="skills">
+      <h2 class="skills__title heading2">Znam</h2>
+
+			<div class="skills__box">
+				<div class="skills__item">
+					<i class="fab fa-js-square skills__icon"></i>
+					<p class="skills__text">JavaScript</p>
+				</div>
+
+				<div class="skills__item">
+					<i class="fab fa-html5 skills__icon""></i>
+					<p class="skills__text">HTML5</p>
+				</div>
+
+        <div class="skills__item">
+					<i class="fab fa-css3-alt skills__icon"></i>
+					<p class="skills__text">CSS3</p>
+				</div>
+
+        <div class="skills__item">
+					<i class="fab fa-react skills__icon"></i>
+					<p class="skills__text">React</p>
+				</div>
+
+        <div class="skills__item">
+					<i class="fab fa-python skills__icon"></i>
+					<p class="skills__text">Python</p>
+				</div>
+
+        <div class="skills__item">
+					<i class="fab fa-java skills__icon"></i>
+					<p class="skills__text">Java</p>
+				</div>
+			</div>
+		</section>
+		<section id="projects" class="projects">
+      <h2 class="projects__title heading">Projekty.</h2>
+      <p class="about-me__circle about-me__circle--1"></p>
+			<p class="about-me__circle about-me__circle--2"></p>
+			<p class="about-me__circle about-me__circle--3"></p>
+			<p class="about-me__circle about-me__circle--4"></p>
+			<p class="about-me__circle about-me__circle--5"></p>
+			<p class="about-me__circle about-me__circle--6"></p>
+			<p class="about-me__circle about-me__circle--7"></p>
+			<p class="about-me__circle about-me__circle--8"></p>
+      <div class="projects__box">
+        
+
+        <div class="projects__item" data-aos="fade-right">
+          <img src="./img/portfolio1.jpg" alt="First commercial web" class="projects__img">
+          <div class="projcts__text-content">
+            <h4 class="projects__project-title">Strona portfolio dla fotografa</h4>
+            <p class="projects__project-description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos, deleniti!</p>
+            <button class="projects__btn-show-more btn">Zobacz więcej</button>
+          </div>
+        </div>
+
+        <div class="projects__item projects__item--right" data-aos="fade-left">
+          
+          <div class="projcts__text-content">
+            <h4 class="projects__project-title">Strona firmowa</h4>
+            <p class="projects__project-description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem hic recusandae quis voluptatum cum sequi accusantium quasi voluptatem?</p>
+            <button class="projects__btn-show-more btn">Zobacz więcej</button>
+          </div>
+          <img src="./img/portfolio1.jpg" alt="First commercial web" class="projects__img projects__img--right">
+        </div>
+
+        <div class="projects__item" data-aos="fade-right">
+          <img src="./img/portfolio1.jpg" alt="First commercial web" class="projects__img">
+          <div class="projcts__text-content">
+            <h4 class="projects__project-title">Landing Page</h4>
+            <p class="projects__project-description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum, expedita ullam incidunt qui vitae reprehenderit veniam architecto perspiciatis fugiat laboriosam.</p>
+            <button class="projects__btn-show-more btn">Zobacz więcej</button>
+          </div>
+        </div>
+
+      </div>
+     
+    </section>
+		<section id="contact" class="contact">
+      <div class="contact__content">
+      
+      <svg class='contact__svg'>
+        <clipPath id="wave" clipPathUnits="objectBoundingBox">
+          <path class="st0" d="M1,0c0,0-0.3,0.1-0.5,0.1S0.3,0,0,0.1V1h1L1,0z"/>
+        </clipPath>
+    </svg>
+    <div class="contact__text-content" data-aos="fade-right">
+      <h2 class="contact__heading">Kontakt</h2>
+      <p class="contact__text-details">Hej! Jeżeli chcesz wysłać do mnie wiadomość, zaproponować współpracę lub o coś zapytać zrób to tutaj lub złap mnie na moich social mediach. </p>
+    </div>
+    <div class="contact__box">  
+        <div class="contact__form-box" data-aos="fade-up">
+          <div class="contact__form-box-top">
+            <span class="contact__cam">&nbsp;</span>
+            <div class="contact__speaker">&nbsp;</div>
+          </div>
+
+          <div class="contact__screen">
+            <h3 class="contact__title">Wiadomość</h3>
+            <form action="" class="contact__form">
+              <input id="name" type="text" class="contact__input" placeholder="Wpisz  imię">
+              <label for="name" class="contact__label">Wpisz imię</label>
+              <input id="surname" type="text" class="contact__input" placeholder="Wpisz nazwisko">
+              <label for="surname" class="contact__label">Wpisz nazwisko</label>
+              <input id="email" type="email" class="contact__input" placeholder="Wpisz email">
+              <label for="email" class="contact__label">Wpisz email</label>
+              <textarea name="contact__text" id="area" cols="30" rows="10" placeholder="Napisz wiadomość!"></textarea>
+              <button type="submit" class="contact__btn btn">Wyślij</button>
+            </form>
+          </div>
+          <div class="contact__form-box-bottom">
+            <span class="contact__home-btn">&nbsp;</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    </section>
+		
+    <footer class="footer">
+      <div class="footer__box">
+        <a href="#" class="footer__link"> <img src="./img/logo/logo-biale-wektor.png" alt="Logo Paweł" class="footer__logo"></a>
+        <p class="footer__name">Paweł Motyka</p>
+        <div class="footer__icon-box">
+          <a href="https://github.com/ShockOfficial" target="__blank" class="footer__link"
+          ><i class="footer__icon fab fa-github"></i
+        ></a>
+        <a href="https://www.linkedin.com/in/pawe%C5%82-motyka-286625216/" target="__blank" class="footer__link">
+          <i class="footer__icon fab fa-linkedin"></i
+        ></a>
+        <a href="https://www.instagram.com/paul.motyka/"  target="__blank" class="footer__link">
+          <i class="footer__icon fab fa-instagram"></i
+        ></a>
+        </div>
+        <p class="footer__copyright">&copy; <span class="footer__year"></span> | Paweł Motyka. All rights reserved</p>
+      </div>
+    </footer>
+		
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+		<script src="/js/script.js"></script>
+	</body>
+</html>
