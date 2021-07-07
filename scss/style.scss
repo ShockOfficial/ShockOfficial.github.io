@@ -753,6 +753,8 @@ body {
 }
 
 .projects {
+	display: flex;
+	flex-direction: column;
 	position: relative;
 	padding: 6rem 0 0 0;
 	overflow: hidden;
@@ -768,7 +770,7 @@ body {
 
 		&::after {
 			left: -50%;
-			width: 150%;
+			width: 190%;
 		}
 
 		@media (min-width: 56.25em) {
@@ -826,8 +828,10 @@ body {
 		}
 
 		&--right {
+			margin-left: auto;
 			box-shadow: -3px 5px 5px rgba(#000, 0.5);
 			border-radius: 10px 0 0 10px;
+
 			@media (min-width: 120.5em) {
 				border-radius: 10px;
 			}
@@ -868,6 +872,12 @@ body {
 
 	&__project-description {
 		font-size: 1.2rem;
+		text-align: inherit;
+		&--right {
+			display: inline-block;
+			width: 100%;
+		}
+
 		@media (min-width: 56.25em) {
 			font-size: 1.5rem;
 		}
