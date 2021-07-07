@@ -31,11 +31,11 @@
 					alt="logo P"
 					class="nav__logo"
 			/></a>
-			<div class="nav__container">
-				<div class="nav__bars">
-					<i id="bars" class="fas fa-bars"></i>
-					<i id="exit" class="fas fa-times hide"></i>
-				</div>
+      <div class="nav__bars">
+        <i id="bars" class="fas fa-bars"></i>
+        <i id="exit" class="fas fa-times hide"></i>
+      </div>
+			<div class="nav__container ">
 				<div class="nav__menu-box">
 					<a href="#home" class="nav__link active">HOME</a>
 					<a href="#about" class="nav__link">O MNIE</a>
@@ -63,6 +63,10 @@
 					></a>
 				</div>
 			</div>
+      <a href="#about" class="header__swipe-down-btn"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-down" width="50" height="50" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+        <polyline points="6 9 12 15 18 9"></polyline>
+     </svg></a>
 		</header>
 		<!-- <div class="wrapper"> -->
 		<section id="about" class="about-me">
@@ -213,16 +217,26 @@
           </div>
 
           <div class="contact__screen">
+            <div class="error hide ">
+              <span id="app"></span>
+              <p class="error__app-name">mail</p>
+              <p class="error__title"></p>
+              <p class="error__time"></p>
+              <p class="error__description"></p>
+              <i class="error__icon error__icon-triangle fas fa-exclamation-triangle"></i>
+              <i class="error__icon error__icon-bell fas fa-bell"></i>
+            </div>
             <h3 class="contact__title">Wiadomość</h3>
+            
             <form action="" class="contact__form">
               <input id="name" type="text" class="contact__input" placeholder="Wpisz  imię">
-              <label for="name" class="contact__label">Wpisz imię</label>
+
               <input id="surname" type="text" class="contact__input" placeholder="Wpisz nazwisko">
-              <label for="surname" class="contact__label">Wpisz nazwisko</label>
+
               <input id="email" type="email" class="contact__input" placeholder="Wpisz email">
-              <label for="email" class="contact__label">Wpisz email</label>
+             
               <textarea name="contact__text" id="area" cols="30" rows="10" placeholder="Napisz wiadomość!"></textarea>
-              <button type="submit" class="contact__btn btn">Wyślij</button>
+              <button type="button" class="contact__btn btn" >Wyślij</button>
             </form>
           </div>
           <div class="contact__form-box-bottom">
@@ -232,6 +246,9 @@
 
       </div>
     </div>
+
+    
+ 
     </section>
 		
     <footer class="footer">
@@ -252,8 +269,10 @@
         <p class="footer__copyright">&copy; <span class="footer__year"></span> | Paweł Motyka. All rights reserved</p>
       </div>
     </footer>
-		
+		<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-		<script src="/js/script.js"></script>
+    <!-- <script  src="./js/index.js"></script> -->
+		<script type="module" src="/js/script.js"></script>
 	</body>
 </html>
