@@ -1099,8 +1099,13 @@ body {
 }
 
 .projects__btn-show-more {
+  display: inline-block;
   margin-top: 1.5rem;
   font-size: 1.2rem;
+}
+
+.projects__btn-show-more:visited, .projects__btn-show-more:link {
+  text-decoration: none;
 }
 
 @media (min-width: 56.25em) {
