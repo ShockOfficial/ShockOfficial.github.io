@@ -2,7 +2,7 @@
 
 ## About
 My first portfolio website! <br>
-🔴demo: https://pawelmotyka.netlify.app/
+🔴 live demo: https://pawelmotyka.netlify.app/
 
 ## Used
 - Animation on scroll (AOS)
